@@ -1,0 +1,8 @@
+1. Cần dữ liệu để hiển thị lên Recycler View
+2. Cần Recycler View để chứa dữ liệu
+3. Các Layout cho mỗi Item, với các Item đều giống nhau.
+4. Layout Manager dùng để quản lý Layout của Recycler View (bắt buộc).
+Có các dạng layout như: vertical, horizontal, grid,... thì nên dùng LinearLayoutManager
+5. Xây dựng Adapter, lớp này kế thừa lớp RecyclerView.Adapter.
+Trong lớp RecyclerView.Adapter cũng xây dựng ViewHolder.
+6. Trong ViewHolder này sẽ ánh xạ các View Layout qua
